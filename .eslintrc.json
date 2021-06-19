@@ -1,17 +1,26 @@
 {
-  "extends": "./node_modules/kcd-scripts/eslint.js",
+  "extends": ["./node_modules/kcd-scripts/eslint.js", "next", "next/core-web-vitals"],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off"
   },
   "settings": {
     "import/resolver": {
       "alias": {
         "map": [
-          ["@components", "../../../components/"],
-          ["@images", "../../../assets/images/"]
+          ["@/components", "./components"],
+          ["@/utils", "./lib/utils"],
+          ["@/images", "./assets/images"],
+          ["@/styles", "./styles"]
         ],
-        "extensions": [".js", ".jsx"],
-      }
+        "extensions": [".js", ".jsx", ".mdx"]
+      },
+      "node": {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      } 
     }
   }
 }

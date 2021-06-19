@@ -3,8 +3,15 @@
     "baseUrl": "./",
     "paths": {
       "@/components/*": ["components/*"],
-      "@/styles/*": ["styles/*"],
-      "@/utils/*": ["utils/*"]
+      "@/utils/*": ["lib/utils/*"],
+      "@/images/*": ["assets/images/*"],
+      "@/styles/*": ["styles/*"]
     },
   },
+  "exclude": ["node_modules"],
+  "include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.mdx"
+, "components/AboutText.msx"  ]
 }

@@ -48,7 +48,7 @@ export default function About() {
             I am excited about coding UI as practice. I find learning to code
             helps me greatly in design. I believe that by going through the
             process of development in web or mobile facilitates me better with
-            communication and personal improvement. :)
+            communication and personal improvement. :{')'}
           </p>
 
           <ul className="list-none">

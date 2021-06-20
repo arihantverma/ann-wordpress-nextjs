@@ -1,3 +1,4 @@
+import classnames from 'classnames'
 import NextLink from 'next/link'
 
 export default function Link({ href, styles = '', children }) {
@@ -10,7 +11,7 @@ export default function Link({ href, styles = '', children }) {
   return (
     <NextLink href={href} passHref>
       {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-      <a className={styles}>{children}</a>
+      <a className={classnames(styles, 'text-blue-400')}>{children}</a>
     </NextLink>
   )
 }

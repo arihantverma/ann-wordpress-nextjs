@@ -12,6 +12,9 @@ module.exports = {
       sans: ['Inter', ...defaultTheme.fontFamily.sans],
     },
     extend: {
+      colors: {
+        lightBrown: '#fbf6ef',
+      },
       letterSpacing: {
         'tight-text': '-1px',
       },

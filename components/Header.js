@@ -20,6 +20,7 @@ export default function Header() {
         <Link href="/work">
           <ListItem>Work</ListItem>
         </Link>
+        {/* ${router.pathname}/ann-resume.pdf */}
         <Link href="/resume">
           <ListItem>Resume</ListItem>
         </Link>

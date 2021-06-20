@@ -8,7 +8,7 @@ function Application({ Component, pageProps }) {
     <Layout>
       <Header />
       <Component {...pageProps} />
-      <div className="max-w-[1200px] md:w-2/3 mx-auto text-gray-800">
+      <div className="mx-auto text-gray-800">
         <Footer />
       </div>
     </Layout>

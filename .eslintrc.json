@@ -11,7 +11,8 @@
           ["@/components", "./components"],
           ["@/utils", "./lib/utils"],
           ["@/images", "./assets/images"],
-          ["@/styles", "./styles"]
+          ["@/styles", "./styles"],
+          ["@/hooks", "./lib/hooks"]
         ],
         "extensions": [".js", ".jsx", ".mdx"]
       },

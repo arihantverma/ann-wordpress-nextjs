@@ -18,7 +18,7 @@ export async function getStaticPaths() {
   })
 
   const postsList = postsData.posts.filter(post =>
-    Object.keys(post.categories || []).includes('Blog Post'),
+    Object.keys(post.categories || []).includes('Work'),
   )
 
   const paths = postsList.map(post => {

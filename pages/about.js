@@ -25,6 +25,7 @@ export default function About() {
               alt="Ann's Headshot Photograph"
               layout="fill"
               objectFit="cover"
+              priority
             />
           </div>
         </div>
@@ -33,7 +34,7 @@ export default function About() {
           <div className="tracking-[-0.7px] flex flex-col space-y-4 text-lg md:text-xl max-w-xl">
             <p>
               Thanks for dropping by. My name is Ann (Tai Chiahui in Chinese;
-              Chichi is a nick name). I am a product designer.I am originally
+              Chichi is a nick name). I am a product designer. I am originally
               from Kaohsiung, Taiwan. Being part of the team has given me a good
               working knowledge of how the pieces come together.
             </p>

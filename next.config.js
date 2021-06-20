@@ -3,4 +3,5 @@ module.exports = {
     domains: ['annnetlify.files.wordpress.com'],
   },
   distDir: 'out',
+  target: 'serverless',
 }

@@ -1,6 +1,6 @@
 module.exports = {
   images: {
-    domains: ['annnetlify.files.wordpress.com'],
+    domains: process.env.NEXT_IMAGE_ALLOWED_DOMAINS.split(','),
   },
   distDir: 'out',
   target: 'serverless',

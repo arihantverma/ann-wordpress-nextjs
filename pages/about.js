@@ -6,6 +6,9 @@ function FunDescription({ children }) {
   return <span className="ml-2">{children}</span>
 }
 
+// export default function Haan() {
+//   return <div>About</div>
+// }
 export default function About() {
   return (
     <div className="flex md:w-1/2 mx-auto about-text">

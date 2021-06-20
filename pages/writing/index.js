@@ -2,7 +2,6 @@ import Layout from '@/components/Layout'
 import Link from '@/components/Link'
 import * as APIEndpoints from '@/utils/api-endpoints'
 import objectUndefinedToNull from '@/utils/common/object-undefined-to-null'
-// import axios from 'axios'
 import fetch from 'isomorphic-unfetch'
 import { useRouter } from 'next/router'
 
@@ -24,11 +23,6 @@ export default function Blogs({ postsList = [] }) {
   )
 }
 
-// export function getStaticPaths() {
-//   return {
-//     paths:
-//   }
-// }
 export async function getStaticProps() {
   // TODO: retry + error logging
   const postsData = await fetch(APIEndpoints.posts).then(r => {

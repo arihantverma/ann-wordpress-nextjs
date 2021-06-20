@@ -9,10 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@mdx-js/loader": "^1.6.22",
-    "@next/mdx": "^11.0.0",
+    "@netlify/plugin-nextjs": "^3.4.2",
     "autoprefixer": "^10.2.6",
-    "axios": "^0.21.1",
     "isomorphic-unfetch": "^3.1.0",
     "kcd-scripts": "^11.1.0",
     "next": "^11.0.0",

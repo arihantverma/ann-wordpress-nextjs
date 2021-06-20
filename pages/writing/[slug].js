@@ -2,7 +2,7 @@ import * as APIEndpoints from '@/utils/api-endpoints'
 import objectUndefinedToNull from '@/utils/common/object-undefined-to-null'
 import fetch from 'isomorphic-unfetch'
 
-export default function Post({ post }) {
+export default function Post({ post = {} }) {
   return (
     <div>
       <code>
